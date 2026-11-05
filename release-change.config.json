@@ -1,0 +1,4 @@
+{
+  "$schema": "https://github.com/release-change/release-change/blob/main/packages/cli/configuration-schema.json",
+  "debug": true
+}
