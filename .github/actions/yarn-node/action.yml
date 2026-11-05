@@ -1,0 +1,26 @@
+name: Install Yarn and setup Node.js
+description: Composite action to install Yarn and setup Node.js used in several workflows
+
+runs:
+  using: "composite"
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # v6.1.0
+      with:
+        node-version: "lts/*"
+    - name: Enable Corepack
+      shell: bash
+      run: |
+        npm install -g corepack
+        corepack enable
+    - name: Get Yarn cache directory
+      id: yarn-cache-dir
+      shell: bash
+      run: echo "dir=$(yarn config get cacheFolder)" >> "$GITHUB_OUTPUT"
+    - name: Get Yarn cache dependencies
+      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+      with:
+        path: ${{ steps.yarn-cache-dir.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
