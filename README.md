@@ -7,8 +7,8 @@ Test published monolithic repo for release-change use with Yarn
 [![Conventional Commits 1.0.0](https://img.shields.io/badge/Conventional_Commits-1.0.0-fe5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![Checked with Biome](https://img.shields.io/badge/Checked_with-Biome-60a5fa?style=flat&logo=biome)](https://biomejs.dev)
 [![Released with release-change](https://img.shields.io/badge/Released_with-release--change-8d8d8d)](https://github.com/release-change/release-change)
-![NPM latest version](https://img.shields.io/npm/v/test-publish-monolith-yarn-release-change/latest)
-![Node support](https://img.shields.io/node/v/test-publish-monolith-yarn-release-change)
+![NPM latest version](https://img.shields.io/npm/v/%40webdevbynight/test-publish-monolith-yarn-release-change/latest)
+![Node support](https://img.shields.io/node/v/%40webdevbynight/test-publish-monolith-yarn-release-change)
 ![Build status](https://img.shields.io/github/actions/workflow/status/webdevbynight/test-publish-monolith-yarn-release-change/run-tests.yml)
 
 **@webdevbynight/test-publish-monolith-yarn-release-change** is a repo to test publishing on NPM with `release-change`.
