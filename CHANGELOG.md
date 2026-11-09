@@ -1,5 +1,15 @@
 # @webdevbynight/test-publish-monolith-yarn-release-change
 
+## 0.0.2
+
+### Patch changes
+
+- fix badges (#3) ([`2d75248`](https://github.com/webdevbynight/test-publish-monolith-yarn-release-change/commit/2d75248c655cda84d7028bc35ea5b28cbf85b1ca))
+
+---
+
+**Full changelog:** [`v0.0.1...v0.0.2`](https://github.com/webdevbynight/test-publish-monolith-yarn-release-change/compare/v0.0.1...v0.0.2)
+
 ## 0.0.1
 
 ### Patch changes
