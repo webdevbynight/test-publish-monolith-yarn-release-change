@@ -1,5 +1,15 @@
 # @webdevbynight/test-publish-monolith-yarn-release-change
 
+## 0.0.3
+
+### Patch changes
+
+- use `release-change/action` to publish release (#6) ([`448b5e8`](https://github.com/webdevbynight/test-publish-monolith-yarn-release-change/commit/448b5e802452eff077fbb577d16d6f1f914e5109))
+
+---
+
+**Full changelog:** [`v0.0.2...v0.0.3`](https://github.com/webdevbynight/test-publish-monolith-yarn-release-change/compare/v0.0.2...v0.0.3)
+
 ## 0.0.2
 
 ### Patch changes
